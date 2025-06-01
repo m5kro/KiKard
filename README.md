@@ -27,3 +27,5 @@ Screenshot of KiCad NRF-52840-QIAA-R schematic
 <br>
 <br>
 **Total time spent: 2h**
+# Credit
+[NRF-52840-QIAA-R schematic and footprint was aquired from snapeda](https://www.snapeda.com/parts/NRF52840-QIAA-R/Nordic%20Power/view-part/)
