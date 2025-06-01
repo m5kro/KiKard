@@ -22,4 +22,8 @@ Came up with the initial idea and some basic plans. I did research on the NRF-52
 <br>
 Since I settled on using the NRF-52840-QIAA-R as the main microcontroller I created a new KiCad project and imported the schematic and footprint.<br>
 <br>
+<img src="journal-images/6-2-25.png" height="200"> <br>
+Screenshot of KiCad NRF-52840-QIAA-R schematic
+<br>
+<br>
 **Total time spent: 2h**
