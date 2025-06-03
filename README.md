@@ -33,7 +33,7 @@ After further research and looking at what JLCPCB has, the ST25R3916-AQWT may be
 <br>
 A future problem I will need to deal with is the antenna setup. I will need a way to connect both chips to the antennas using a switching method so there isn't any interference.<br>
 <br>
-In KiCad, I imported the ST25R3916-AQWT symbol and schematic and connected up the NRF82 to a USB-C port.<br>
+In KiCad, I imported the ST25R3916-AQWT symbol and schematic and connected up the NRF52 to a USB-C port.<br>
 <br>
 <img src="journal-images/6-4-25.png" height="200"><br>
 Screenshot of current KiCad progress<br>
