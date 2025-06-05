@@ -27,3 +27,13 @@ Screenshot of current KiCad progress<br>
 <br>
 **Time spent today: 2h**<br>
 **Total time spent: 4h**
+## 6/6/25
+Spent today connecting up the ST25 to the NRF52 using SPI and making some other connections for the ST25. SPI was a bit confusing at first because the CS pin was labeled BSS, and I thought it was the CSO and CSI pins for a bit. Looking at diagrams online, most people are wiring up the ST25 with 5v on the VDD and VDDTX pins and 3.3v on the VDDIO pin, so I went with that (pulled 5v from usb and 3.3v from the NRF VDD output). The ST25 also needed a 27.12 MHz oscillator, so I used the XRCGB27M120F3M00R0 (terrible name). Finally, I decoupled everything on the ST25 (hopefully properly). <br>
+<br>
+The next update will probably be finishing up the wiring for the NRF52. After that I will work on figuring out the antenna setup.<br>
+<br>
+<img src="journal-images/6-6-25.png" height="200"><br>
+Screenshot of the current ST25 schematic (if you see any problems please message me, thanks)<br>
+<br>
+**Time spent today: 3h**<br>
+**Total time spent: 7h**
