@@ -37,3 +37,13 @@ Screenshot of the current ST25 schematic (if you see any problems please message
 <br>
 **Time spent today: 3h**<br>
 **Total time spent: 7h**
+## 6/29/25
+Got back from vacation. Spent today wiring up the NRF52. I got all the decoupling, fixed the symbol, added a BLE antenna, and added the two oscillators (32 Mhz & 32.768 KHz). Everything looks very sketchy so far and I have no idea if it will work at all.<br>
+<br>
+I will try to get the NFC antennas figured out for the next update and also add the buttons.<br>
+<br>
+<img src="journal-images/6-29-25.png" height="200"><br>
+Screenshot of the almost completed NRF52 schematic (as usual please message me if you see any problems)<br>
+<br>
+**Time spent today: 5h**<br>
+**Total time spent: 12h**
