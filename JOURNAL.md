@@ -47,3 +47,13 @@ Screenshot of the almost completed NRF52 schematic (as usual please message me i
 <br>
 **Time spent today: 5h**<br>
 **Total time spent: 12h**
+## 7/9/25
+Spent today figuring out the NFC antenna. This took forever and really confused my brain, as I have no idea how RF works. After spending hours looking at documentation and performing calculations, I settled on a 25x25mm antenna with 7 turns, 0.4mm width traces, and 0.6mm spacing, to get around 1.37uH of inductance. 1.37uH is sort of a magic number because it simplifies all the tuning calculations for me. For the ST25 everything was already done for me since the flipper zero just so happens to use the same chip, and its antenna is also 1.37uH (thanks Flipper Zero team). The NRF52 was a bit harder since I needed to perform my own calculations, but thankfully, it came out to just around 200pF for each tuning capacitor.<br>
+<br>
+Next update I will get more of the schematic done and maybe figure out the mux (switching mechanism) for the antenna.<br>
+<br>
+<img src="journal-images/7-9-25.png" height="200"><br>
+Screenshot of the NFC antenna footprint (created using: https://github.com/nideri/nfc_antenna_generator)<br>
+<br>
+**Time spend today: 5h**<br>
+**Total time spent: 17h**

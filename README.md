@@ -17,4 +17,5 @@ Although the NRF has NFC support built in, it's only for tag mode, so a separate
 
 # Credit
 [NRF-52840-QIAA-R schematic and footprint was aquired from snapeda](https://www.snapeda.com/parts/NRF52840-QIAA-R/Nordic%20Power/view-part/)<br>
-[ST25R3916-AQWT schematic and footprint was aquired from snapeda](https://www.snapeda.com/parts/ST25R3916-AQWT/STMicroelectronics/view-part/)
+[ST25R3916-AQWT schematic and footprint was aquired from snapeda](https://www.snapeda.com/parts/ST25R3916-AQWT/STMicroelectronics/view-part/)<br>
+[NFC antenna footprint created using nfc antenna generator by nideri](https://github.com/nideri/nfc_antenna_generator)
