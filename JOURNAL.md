@@ -55,5 +55,15 @@ Next update I will get more of the schematic done and maybe figure out the mux (
 <img src="journal-images/7-9-25.png" height="200"><br>
 Screenshot of the NFC antenna footprint (created using: https://github.com/nideri/nfc_antenna_generator)<br>
 <br>
-**Time spend today: 5h**<br>
+**Time spent today: 5h**<br>
 **Total time spent: 17h**
+## 7/11/25
+Finished up the NFC tuning for the ST25 today. I also sort of figured out a switching mechanism for the NRF52. It involves 2 mosfets to control when the NRF52 connects, and it attaches right onto the coil. It's an ugly solution and there's a good chance it doesn't work because the NRF52 can't quite be tuned in this setup. However, [some people online claim they have been able to get away with not tuning by using a MOLEX 1462360051 antenna](https://forum.seeedstudio.com/t/xiao-nrf52840-nfc-antenna-insights/277696), which happens to be 1.4uF (very close to my 1.37). I'll do more research later to see if this configuration actually works.<br>
+<br>
+Next update will (hopefully) be starting on the pcb layout.<br>
+<br>
+<img src="journal-images/7-11-25.png" height="200"><br>
+Screenshot of the terrible antenna switching mechanism and the ST25 tuning<br>
+<br>
+**Time spent today: 4h**<br>
+**Total time spent: 21h**

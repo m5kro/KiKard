@@ -11,6 +11,8 @@ A usb microcontroller board with NFC read, write, and tag support. Built for Hac
 7. USB-C port
 8. A whole bunch of capacitors (will add full list later)
 9. oscillators (will add full list later)
+10. resistors (will add later)
+11. 2 WNM3013-3/TR mosfets
 
 # Other Notes
 Although the NRF has NFC support built in, it's only for tag mode, so a separate chip is needed for reading NFC.
