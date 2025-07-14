@@ -1,21 +1,13 @@
 # KiKard
-A usb microcontroller board with NFC read, write, and tag support. Built for Hack Club Highway.
-
-# BOM
-1. NRF-52840-QIAA-R Microcontroller (has BLE and also sips power)
-2. Custom PCB with dual NFC Antenna built in (or just HF) + BLE antenna
-3. ST25R3916-AQWT
-4. 2 RGB LEDs
-5. On/Off switch
-6. 3 buttons
-7. USB-C port
-8. A whole bunch of capacitors (will add full list later)
-9. oscillators (will add full list later)
-10. resistors (will add later)
-11. 2 WNM3013-3/TR mosfets
+A usb microcontroller board with NFC read, write, and tag support. Built for Hack Club Highway. Not affiliated with KiCad (but do check them out).
 
 # Other Notes
-Although the NRF has NFC support built in, it's only for tag mode, so a separate chip is needed for reading NFC.
+Although the NRF has NFC support built in, it's only for tag mode, so a separate chip is needed for reading NFC.<br>
+RGB LED 1 - Status led Green: just connected, Pink: reset/flashing, Blue: NRF52 tag mode, Yellow: ST25 read mode, Red: error<br>
+RGB LED 2 - read/tag status Yellow: waiting, Blue: reading/emulating, Green: success, Red: error<br>
+Button 1 - Read/emulate<br>
+Button 2 - Switch between NRF52 and ST25<br>
+Button 3 - Switch emulated tag (can save different cards on device)<br>
 
 # Credit
 [NRF-52840-QIAA-R schematic and footprint was aquired from snapeda](https://www.snapeda.com/parts/NRF52840-QIAA-R/Nordic%20Power/view-part/)<br>
