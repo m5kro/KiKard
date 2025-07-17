@@ -67,7 +67,7 @@ Screenshot of the terrible antenna switching mechanism and the ST25 tuning<br>
 <br>
 **Time spent today: 4h**<br>
 **Total time spent: 21h**
-## 7/15/25
+## 7/14/25
 Added the buttons, leds, and fixed some small stuff. I also spent most of the time finding footprints and actual parts on JLCPCB. The BOM took forever to do and I triple checked everything on the schemtics to make sure designing the PCB would be as smooth as possible.<br>
 <br>
 Next update I will be starting on the PCB.<br>
@@ -77,3 +77,13 @@ Screenshot of the superlong BOM<br>
 <br>
 **Time spent today: 4h**<br>
 **Total time spent: 25h**
+## 7/16/25
+Started on the PCB! Currently have the usb and buttons wired up. Still working on getting the 3.3v output from the NRF52. I may need to expand the board in case I can't fit all the caps.<br>
+<br>
+Next update will be more of the PCB<br>
+<br>
+<img src="journal-images/7-16-25.png" height="200"><br>
+Screenshot of the current PCB progress<br>
+<br>
+**Time spent today: 3h**<br>
+**Total time spent: 28h**

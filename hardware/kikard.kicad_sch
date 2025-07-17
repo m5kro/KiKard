@@ -12881,7 +12881,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ST25R3916-AQWT:QFN50P500X500X100-33N"
+		(property "Footprint" "extra-symbols-footprints:QFN50P500X500X100-33N"
 			(at 402.59 455.93 0)
 			(effects
 				(font
@@ -17154,7 +17154,7 @@
 				)
 			)
 		)
-		(property "Footprint" "NRF52840-QIAA-R:XCVR_NRF52840-QIAA-R"
+		(property "Footprint" "extra-symbols-footprints:XCVR_NRF52840-QIAA-R"
 			(at 182.88 441.96 0)
 			(effects
 				(font
