@@ -1845,7 +1845,7 @@
 					)
 				)
 			)
-			(property "Footprint" "NRF52840-QIAA-R:XCVR_NRF52840-QIAA-R"
+			(property "Footprint" "extra-symbols-footprints:XCVR_NRF52840-QIAA-R"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2654,24 +2654,6 @@
 					)
 				)
 				(pin power_in line
-					(at 12.7 -60.96 90)
-					(length 5.08)
-					(name "VSS"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "74"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin power_in line
 					(at 13.97 58.42 270)
 					(length 5.08)
 					(name "VDD"
@@ -3330,6 +3312,26 @@
 						)
 					)
 					(number "B7"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(symbol "NRF52840-QIAA-R_1_0"
+				(pin power_in line
+					(at 12.7 -60.96 90)
+					(length 5.08)
+					(name "VSS"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "74_1"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -8342,7 +8344,7 @@
 	)
 	(global_label "MOSI"
 		(shape input)
-		(at 154.94 464.82 180)
+		(at 154.94 444.5 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8352,7 +8354,7 @@
 		)
 		(uuid "183e1b5a-9bed-48a6-8e18-af0e3bfe0086")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 147.3586 464.82 0)
+			(at 147.3586 444.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9134,22 +9136,22 @@
 	)
 	(global_label "NEOPIXEL_1"
 		(shape input)
-		(at 210.82 431.8 0)
+		(at 154.94 441.96 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "9e97edcc-9dd4-4ad0-9edd-7748270a5c01")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 225.0537 431.8 0)
+			(at 140.7063 441.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -9728,7 +9730,7 @@
 	)
 	(global_label "CS"
 		(shape input)
-		(at 154.94 469.9 180)
+		(at 154.94 449.58 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9738,7 +9740,7 @@
 		)
 		(uuid "fa0075c9-379b-44bb-880d-e4b28e4f7781")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 149.4753 469.9 0)
+			(at 149.4753 449.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17518,7 +17520,7 @@
 		(pin "A14"
 			(uuid "31f8483e-a982-4d0f-8ab9-65bd7b17b2df")
 		)
-		(pin "74"
+		(pin "74_1"
 			(uuid "2c3339af-9826-44de-9731-1b4b0704ccdf")
 		)
 		(pin "G1"

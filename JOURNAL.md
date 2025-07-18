@@ -80,10 +80,20 @@ Screenshot of the superlong BOM<br>
 ## 7/16/25
 Started on the PCB! Currently have the usb and buttons wired up. Still working on getting the 3.3v output from the NRF52. I may need to expand the board in case I can't fit all the caps.<br>
 <br>
-Next update will be more of the PCB<br>
+Next update will be more of the PCB.<br>
 <br>
 <img src="journal-images/7-16-25.png" height="200"><br>
 Screenshot of the current PCB progress<br>
 <br>
 **Time spent today: 3h**<br>
 **Total time spent: 28h**
+## 7/17/25
+Spent today wiring up most of the NRF52, just have the NFC and SPI connections left to do. Some minor modifications had to be made to the schematic due to some of the GPIO pins on the NRF52 being "slow speed". I'm also worried about the spacing for the ST25 as all the caps need to be squeezed into a sort of line.<br>
+<br>
+Next update will (hopfully) be the finished PCB.<br>
+<br>
+<img src="journal-images/7-17-25.png" height="200"><br>
+Screenshot of the current PCB progress<br>
+<br>
+**Time spent today: 5h**<br>
+**Total time spent: 33h**
