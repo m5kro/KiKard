@@ -7,4 +7,5 @@
   (lib (name "K2-6639SP-C4SC-04")(type "KiCad")(uri "${KIPRJMOD}/extra-symbols-footprints/K2-6639SP-C4SC-04.kicad_sym")(options "")(descr ""))
   (lib (name "USB-C")(type "KiCad")(uri "${KIPRJMOD}/extra-symbols-footprints/USBC.kicad_sym")(options "")(descr ""))
   (lib (name "HX3x4x2-2P-2.5N")(type "KiCad")(uri "${KIPRJMOD}/extra-symbols-footprints/HX3x4x2-2P-2.5N.kicad_sym")(options "")(descr ""))
+  (lib (name "rgbled")(type "KiCad")(uri "${KIPRJMOD}/extra-symbols-footprints/rgbled.kicad_sym")(options "")(descr ""))
 )

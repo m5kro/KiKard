@@ -97,3 +97,14 @@ Screenshot of the current PCB progress<br>
 <br>
 **Time spent today: 5h**<br>
 **Total time spent: 33h**
+## 7/18/25
+Finished the PCB! I also generated the gerbers and position files to see how much it would cost on JLCPCB. I ran into some issues initially where the vias wern't showing up but I fixed it by reading JLCPCB's documentation. I didn't realize some parts were standard PCBA only so I had to switch them out for different ones (the RGBLEDs and 62pF caps). I also found out about the "extended" parts fee and that really hurt to look at. I can still get the 5 boards just under $150 though, so it'll be around $30 per board. There's not much left to do but create a case and write some initial test code.<br>
+<br>
+Next update will be the case and some code.<br>
+<br>
+<img src="journal-images/7-18-25-1.png" height="200">
+<img src="journal-images/7-18-25-2.png" height="200"><br>
+Screenshot of the final PCB layout and 3D render<br>
+<br>
+**Time spent today: 7h**<br>
+**Total time spent: 40h**

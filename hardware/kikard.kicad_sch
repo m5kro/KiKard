@@ -652,218 +652,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:Crystal_GND2"
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "Y"
-				(at 0 5.715 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Crystal_GND2"
-				(at 0 3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Three pin crystal, GND on pin 2"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "quartz ceramic resonator oscillator"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Crystal*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Crystal_GND2_0_1"
-				(polyline
-					(pts
-						(xy -2.54 0) (xy -1.905 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 -2.286) (xy -2.54 -3.556) (xy 2.54 -3.556) (xy 2.54 -2.286)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.905 -1.27) (xy -1.905 1.27)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.143 2.54)
-					(end 1.143 -2.54)
-					(stroke
-						(width 0.3048)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -3.81) (xy 0 -3.556)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.905 1.27) (xy 1.905 -1.27)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.905 0) (xy 2.54 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Crystal_GND2_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 1.27)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -5.08 90)
-					(length 1.27)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 1.27)
-					(name "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:Crystal_GND24"
 			(pin_names
 				(offset 1.016)
@@ -3331,7 +3119,7 @@
 							)
 						)
 					)
-					(number "74_1"
+					(number "74"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -5212,160 +5000,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "WS2812B-2020:WS2812B-2020"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "LED"
-				(at 0 6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "WS2812B-2020"
-				(at 0 -6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ":LED-SMD_4P-L2.0-W2.0-TL_WS2812B-2020"
-				(at 0 -8.89 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_Worldsemi-WS2812B-2020_C965555.html"
-				(at 0 -11.43 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "LCSC Part" "C965555"
-				(at 0 -13.97 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "WS2812B-2020_0_1"
-				(rectangle
-					(start -6.35 3.81)
-					(end 6.35 -3.81)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(circle
-					(center -5.08 2.54)
-					(radius 0.38)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin unspecified line
-					(at -8.89 1.27 0)
-					(length 2.54)
-					(name "DO"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -8.89 -1.27 0)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 8.89 1.27 180)
-					(length 2.54)
-					(name "VDD"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 8.89 -1.27 180)
-					(length 2.54)
-					(name "DI"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "power:GND"
 			(power)
 			(pin_numbers
@@ -5467,6 +5101,160 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "rgbled:ZSRGB-2017H-08-Z3"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "ZSRGB-2017H-08-Z3"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ":LED-SMD_4P-L2.0-W1.8-P0.90_XGM-S0807RGB"
+				(at 0 -8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC Part" "C7497245"
+				(at 0 -11.43 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "ZSRGB-2017H-08-Z3_0_1"
+				(rectangle
+					(start -6.35 3.81)
+					(end 6.35 -3.81)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(circle
+					(center -5.08 2.54)
+					(radius 0.38)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at -8.89 1.27 0)
+					(length 2.54)
+					(name "VDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -8.89 -1.27 0)
+					(length 2.54)
+					(name "DO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 8.89 1.27 180)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 8.89 -1.27 180)
+					(length 2.54)
+					(name "DI"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 	)
 	(junction
 		(at 400.05 266.7)
@@ -5545,12 +5333,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2329de5b-d87e-4add-94bc-00ed47642709")
-	)
-	(junction
-		(at 355.6 434.34)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "258c7189-42d0-43e2-9232-6481b1ad814f")
 	)
 	(junction
 		(at 217.17 391.16)
@@ -5763,6 +5545,12 @@
 		(uuid "9bb9ee9f-71b4-4539-84e2-422731b0fec6")
 	)
 	(junction
+		(at 354.33 433.07)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9c3def40-64a8-4951-9285-3adc15c29213")
+	)
+	(junction
 		(at 219.71 495.3)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5779,6 +5567,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "aff2a531-8dce-4e69-9d1f-cb1e7a6108c9")
+	)
+	(junction
+		(at 354.33 443.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b4f2041e-1d08-4591-a17c-f160f99d87f3")
 	)
 	(junction
 		(at 508 401.32)
@@ -5821,12 +5615,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d6480f70-52e6-4179-acb8-9458f852b757")
-	)
-	(junction
-		(at 355.6 441.96)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e1d763a1-f754-45df-a1d7-cdd54dadb278")
 	)
 	(junction
 		(at 400.05 280.67)
@@ -6036,16 +5824,6 @@
 	)
 	(wire
 		(pts
-			(xy 373.38 434.34) (xy 355.6 434.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "147eba55-c0b5-440f-9eae-f98a7c217f41")
-	)
-	(wire
-		(pts
 			(xy 260.35 182.88) (xy 260.35 185.42)
 		)
 		(stroke
@@ -6236,7 +6014,7 @@
 	)
 	(wire
 		(pts
-			(xy 373.38 458.47) (xy 373.38 434.34)
+			(xy 373.38 433.07) (xy 373.38 458.47)
 		)
 		(stroke
 			(width 0)
@@ -6766,6 +6544,16 @@
 	)
 	(wire
 		(pts
+			(xy 360.68 441.96) (xy 360.68 443.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "629b9509-6e89-4ef5-9826-bb0ade7c1225")
+	)
+	(wire
+		(pts
 			(xy 369.57 290.83) (xy 369.57 293.37)
 		)
 		(stroke
@@ -6773,6 +6561,16 @@
 			(type default)
 		)
 		(uuid "63071ffe-6e22-4831-8876-65db2b2c62d5")
+	)
+	(wire
+		(pts
+			(xy 349.25 433.07) (xy 354.33 433.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6316e7bc-3180-419a-8e87-c06d11d07944")
 	)
 	(wire
 		(pts
@@ -6813,16 +6611,6 @@
 			(type default)
 		)
 		(uuid "65dd493f-a70f-4df5-8b75-868d0c6baaca")
-	)
-	(wire
-		(pts
-			(xy 349.25 441.96) (xy 355.6 441.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "67f7fe05-8f20-445e-bf5f-a5d0e28bcdf1")
 	)
 	(wire
 		(pts
@@ -6936,6 +6724,16 @@
 	)
 	(wire
 		(pts
+			(xy 349.25 434.34) (xy 349.25 433.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6e655ffc-3b51-4180-a268-9165f49f0eaf")
+	)
+	(wire
+		(pts
 			(xy 260.35 165.1) (xy 260.35 167.64)
 		)
 		(stroke
@@ -6943,16 +6741,6 @@
 			(type default)
 		)
 		(uuid "71522941-fad6-4573-9de0-4512461547dd")
-	)
-	(wire
-		(pts
-			(xy 370.84 441.96) (xy 355.6 441.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7156a8b4-e9d1-4c50-8cb1-4728bfe4d01a")
 	)
 	(wire
 		(pts
@@ -7253,6 +7041,16 @@
 			(type default)
 		)
 		(uuid "8fb0462d-907b-49a0-b31c-0e6a7f3f1800")
+	)
+	(wire
+		(pts
+			(xy 373.38 433.07) (xy 354.33 433.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8fe85107-f41e-467e-aed5-66c64454b9bc")
 	)
 	(wire
 		(pts
@@ -7966,16 +7764,6 @@
 	)
 	(wire
 		(pts
-			(xy 349.25 434.34) (xy 355.6 434.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e2f9d544-4fbc-4766-96e3-92cfc6852e4c")
-	)
-	(wire
-		(pts
 			(xy 264.16 468.63) (xy 245.11 468.63)
 		)
 		(stroke
@@ -8016,6 +7804,16 @@
 	)
 	(wire
 		(pts
+			(xy 370.84 441.96) (xy 360.68 441.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e7f70161-4b56-4396-bf65-cbbd6993c1d0")
+	)
+	(wire
+		(pts
 			(xy 370.84 461.01) (xy 370.84 441.96)
 		)
 		(stroke
@@ -8033,6 +7831,26 @@
 			(type default)
 		)
 		(uuid "e8f75160-755c-4d20-990c-b6d4fa1ab831")
+	)
+	(wire
+		(pts
+			(xy 349.25 443.23) (xy 354.33 443.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e944ef14-90f9-4be0-a52b-fd0adb7fefd4")
+	)
+	(wire
+		(pts
+			(xy 349.25 441.96) (xy 349.25 443.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e960cfbd-0c35-476e-9418-f1c7a7aa8ae2")
 	)
 	(wire
 		(pts
@@ -8083,6 +7901,16 @@
 			(type default)
 		)
 		(uuid "ed8f3697-575a-458c-9b4e-7f345504e9ab")
+	)
+	(wire
+		(pts
+			(xy 360.68 443.23) (xy 354.33 443.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "edfcee9a-5222-45a6-8782-0e2a31ac770f")
 	)
 	(wire
 		(pts
@@ -8344,7 +8172,7 @@
 	)
 	(global_label "MOSI"
 		(shape input)
-		(at 154.94 444.5 180)
+		(at 154.94 467.36 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8354,7 +8182,7 @@
 		)
 		(uuid "183e1b5a-9bed-48a6-8e18-af0e3bfe0086")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 147.3586 444.5 0)
+			(at 147.3586 467.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8652,7 +8480,7 @@
 	)
 	(global_label "IRQ"
 		(shape input)
-		(at 154.94 472.44 180)
+		(at 154.94 444.5 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8662,7 +8490,7 @@
 		)
 		(uuid "4a5d02fb-6498-4e25-8167-14446897eb60")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 148.7495 472.44 0)
+			(at 148.7495 444.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8806,22 +8634,22 @@
 	)
 	(global_label "vusb"
 		(shape input)
-		(at 173.99 166.37 0)
+		(at 156.21 166.37 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "5d477d0f-846b-4937-8233-dee4bbc11151")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 181.2689 166.37 0)
+			(at 148.9311 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -9202,7 +9030,7 @@
 	)
 	(global_label "MISO"
 		(shape input)
-		(at 154.94 467.36 180)
+		(at 154.94 472.44 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9212,7 +9040,7 @@
 		)
 		(uuid "a2354e48-fd31-48c0-b6a5-bb36ee685466")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 147.3586 467.36 0)
+			(at 147.3586 472.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9312,22 +9140,22 @@
 	)
 	(global_label "vusb"
 		(shape input)
-		(at 173.99 148.59 0)
+		(at 156.21 148.59 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "b73fdc05-93a9-435d-a685-786f759ae296")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 181.2689 148.59 0)
+			(at 148.9311 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -9891,79 +9719,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:Crystal_GND2")
-		(at 355.6 438.15 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "02aba5ff-482b-4855-9a21-d01c74e65cd9")
-		(property "Reference" "Y1"
-			(at 359.41 436.8799 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "27MHz"
-			(at 359.41 439.4199 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "extra-symbols-footprints:CRYSTAL-SMD_4P-L2.0-W1.6-BL-B"
-			(at 355.6 438.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 355.6 438.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Three pin crystal, GND on pin 2"
-			(at 355.6 438.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "ca73865d-7b88-4a7a-b423-c35703cdc0ef")
-		)
-		(pin "1"
-			(uuid "3494ab39-4879-4ca4-9cb5-f196b6968dd5")
-		)
-		(pin "2"
-			(uuid "d846aab3-a2f6-419b-98e1-0be3e67ca01d")
-		)
-		(instances
-			(project ""
-				(path "/917632b7-e014-41d7-a3d3-d081295b7ada"
-					(reference "Y1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 590.55 243.84 180)
 		(unit 1)
@@ -10361,6 +10116,80 @@
 			(project "kikard"
 				(path "/917632b7-e014-41d7-a3d3-d081295b7ada"
 					(reference "C43")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Crystal_GND24")
+		(at 354.33 438.15 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0a36a054-aa18-499b-83a5-bbeacb8a2e19")
+		(property "Reference" "Y1"
+			(at 361.95 431.7298 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "27MHz"
+			(at 361.95 434.2698 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "extra-symbols-footprints:CRYSTAL-SMD_4P-L2.0-W1.6-BL-B"
+			(at 354.33 438.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 354.33 438.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Four pin crystal, GND on pins 2 and 4"
+			(at 354.33 438.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "4c628dd5-a0e6-4b2a-85d9-ca0b04bf662a")
+		)
+		(pin "1"
+			(uuid "955f912b-89e7-400b-a3b8-277738e980c4")
+		)
+		(pin "4"
+			(uuid "09112fc2-c299-46d4-afe5-2f87e7099ef6")
+		)
+		(pin "2"
+			(uuid "775196ed-f2b8-4250-8a8c-31e0f93397cb")
+		)
+		(instances
+			(project ""
+				(path "/917632b7-e014-41d7-a3d3-d081295b7ada"
+					(reference "Y1")
 					(unit 1)
 				)
 			)
@@ -12588,6 +12417,73 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 173.99 148.59 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4e3c7839-a92d-4b14-aa84-d9c18ad3b666")
+		(property "Reference" "#PWR046"
+			(at 180.34 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 177.8 148.5899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 173.99 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 173.99 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 173.99 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "33d510f2-8c28-4146-bf32-f0d00729e8ed")
+		)
+		(instances
+			(project "kikard"
+				(path "/917632b7-e014-41d7-a3d3-d081295b7ada"
+					(reference "#PWR046")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 382.27 453.39 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -13665,6 +13561,73 @@
 			(project "kikard"
 				(path "/917632b7-e014-41d7-a3d3-d081295b7ada"
 					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 358.14 438.15 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5edb3754-7072-46fd-8aa3-1d2903d689cd")
+		(property "Reference" "#PWR045"
+			(at 364.49 438.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 361.95 438.1499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 358.14 438.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 358.14 438.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 358.14 438.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0607a3b9-986a-44f7-a5c7-0ae523a16be5")
+		)
+		(instances
+			(project "kikard"
+				(path "/917632b7-e014-41d7-a3d3-d081295b7ada"
+					(reference "#PWR045")
 					(unit 1)
 				)
 			)
@@ -14970,6 +14933,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 173.99 166.37 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8ff95947-a319-437a-bb3a-dcc237877d3a")
+		(property "Reference" "#PWR047"
+			(at 180.34 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 177.8 166.3699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 173.99 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 173.99 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 173.99 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d0fe698a-e2ba-4d79-86a0-1f36d9e27b6e")
+		)
+		(instances
+			(project "kikard"
+				(path "/917632b7-e014-41d7-a3d3-d081295b7ada"
+					(reference "#PWR047")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 219.71 501.65 0)
 		(unit 1)
@@ -15259,7 +15289,7 @@
 		)
 	)
 	(symbol
-		(lib_id "WS2812B-2020:WS2812B-2020")
+		(lib_id "rgbled:ZSRGB-2017H-08-Z3")
 		(at 165.1 149.86 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -15276,7 +15306,7 @@
 				)
 			)
 		)
-		(property "Value" "WS2812B-2020"
+		(property "Value" "ZSRGB-2017H-08-Z3"
 			(at 165.1 143.51 0)
 			(effects
 				(font
@@ -15284,7 +15314,7 @@
 				)
 			)
 		)
-		(property "Footprint" "extra-symbols-footprints:LED-SMD_4P-L2.0-W2.0-TL_WS2812B-2020"
+		(property "Footprint" "extra-symbols-footprints:LED-SMD_4P-L2.0-W1.8-P0.90_XGM-S0807RGB"
 			(at 165.1 158.75 0)
 			(effects
 				(font
@@ -15294,7 +15324,7 @@
 			)
 		)
 		(property "Datasheet" "https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_Worldsemi-WS2812B-2020_C965555.html"
-			(at 165.1 161.29 0)
+			(at 165.1 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15311,8 +15341,8 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C965555"
-			(at 165.1 163.83 0)
+		(property "LCSC Part" "C7497245"
+			(at 165.1 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16330,7 +16360,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "extra-symbols-footprints:R0402"
+		(property "Footprint" "extra-symbols-footprints:L0402"
 			(at 226.06 462.28 0)
 			(effects
 				(font
@@ -17520,7 +17550,7 @@
 		(pin "A14"
 			(uuid "31f8483e-a982-4d0f-8ab9-65bd7b17b2df")
 		)
-		(pin "74_1"
+		(pin "74"
 			(uuid "2c3339af-9826-44de-9731-1b4b0704ccdf")
 		)
 		(pin "G1"
@@ -17869,7 +17899,7 @@
 		)
 	)
 	(symbol
-		(lib_id "WS2812B-2020:WS2812B-2020")
+		(lib_id "rgbled:ZSRGB-2017H-08-Z3")
 		(at 165.1 167.64 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -17886,7 +17916,7 @@
 				)
 			)
 		)
-		(property "Value" "WS2812B-2020"
+		(property "Value" "ZSRGB-2017H-08-Z3"
 			(at 165.1 161.29 0)
 			(effects
 				(font
@@ -17894,7 +17924,7 @@
 				)
 			)
 		)
-		(property "Footprint" "extra-symbols-footprints:LED-SMD_4P-L2.0-W2.0-TL_WS2812B-2020"
+		(property "Footprint" "extra-symbols-footprints:LED-SMD_4P-L2.0-W1.8-P0.90_XGM-S0807RGB"
 			(at 165.1 176.53 0)
 			(effects
 				(font
@@ -17904,7 +17934,7 @@
 			)
 		)
 		(property "Datasheet" "https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_Worldsemi-WS2812B-2020_C965555.html"
-			(at 165.1 179.07 0)
+			(at 165.1 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17921,8 +17951,8 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C965555"
-			(at 165.1 181.61 0)
+		(property "LCSC Part" "C7497245"
+			(at 165.1 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)

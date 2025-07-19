@@ -10,13 +10,23 @@ Button 2 - Switch between NRF52 and ST25<br>
 Button 3 - Switch emulated tag (can save different cards on device)<br>
 
 # Bom
-Custom PCB: TBD<br>
-Total PCB Parts Price: $8.7174<br>
-Total: TBD
+| Item | Price |
+| :-----: | :-----: |
+| Custom PCB x5 | $4.00 |
+| PCB Parts x5 | $44.43 |
+| Extended Parts Fee | $81.00 |
+| SMT Assembly | $2.90 |
+| X-ray Inspection (required) | $7.85 |
+| Nitrogen Reflow Soldering | $0.86 |
+| Shipping | $9.04 |
+| JLCPCB special discount | -$2.00 |
+| SMT Coupon | -$12.00 |
+
+**Total: $145.58**
 
 # PCB Parts Bom (PER PCB)
 Total PCB Parts: 71<br>
-Total PCB Parts Price: $8.7174
+Total PCB Parts Price (per PCB): $8.7174
 | Part | Designator | Quantity | Price per Unit | Total | JLCPCB/LCSC Part No. |
 | :---------: | :-----: | :-----: | :-----: | :-----: | :-----: |
 | [NRF-52840-QIAA-R](https://jlcpcb.com/partdetail/NordicSemicon-NRF52840_QIAAR/C190794) | U1 | 1 | $4.0290 | $4.0290 | C190794 |
@@ -26,7 +36,7 @@ Total PCB Parts Price: $8.7174
 | [27MHz Crystal Oscillator](https://jlcpcb.com/partdetail/604049-XRCGB27M120F3M00R0/C576558) | Y1 | 1 | $0.1773 | $0.1773 | C576558 |
 | [32KHz Crystal Oscillator](https://jlcpcb.com/partdetail/357119-X161032768KGD2SI/C383847) | Y3 | 1 | $0.3825 | $0.3825 | C383847 |
 | [USB-C Port](https://jlcpcb.com/partdetail/SHOUHAN-TYPEC16PIN/C393939) | USB1 | 1 | $0.0642 | $0.0642 | C393939 |
-| [NeoPixel](https://jlcpcb.com/partdetail/Worldsemi-WS2812B2020/C965555) | LED1, LED2 | 2 | $0.0807 | $0.1614 | C965555 |
+| [RGBLED](https://jlcpcb.com/partdetail/ChauLight-ZSRGB_2017H_08Z3/C7497245) | LED1, LED2 | 2 | $0.0807 | $0.1614 | C7497245 |
 | [Button](https://jlcpcb.com/partdetail/Korean_HropartsElec-K2_6639SP_C4SC04/C83206) | SW1, SW2, SW3 | 3 | $0.0380 | $0.1140 | C83206 |
 | [Small Button](https://jlcpcb.com/partdetail/hanxia-HX_3x4x2_2P_25N/C36498961) | SW4 | 1 | $0.0299 | $0.0299 | C36498961 |
 | [100k Ohm Resistor](https://jlcpcb.com/partdetail/YAGEO-RC0603FR07100KL/C14675) | R3, R4 | 2 | $0.0010 | $0.0020 | C14675 |
@@ -41,7 +51,7 @@ Total PCB Parts Price: $8.7174
 | [1nF Capacitor](https://jlcpcb.com/partdetail/TDK-C1005C0G1E102JT000F/C343059) | C45, C46 | 2 | $0.0089 | $0.0178 | C343059 |
 | [680pF Capacitor](https://jlcpcb.com/partdetail/1893-0402B681K500NT/C1541) | C38, C40 | 2 | $0.0011 | $0.0022 | C1541 |
 | [100pF Capacitor](https://jlcpcb.com/partdetail/1898-0402CG101J500NT/C1546) | C35, C37, C41, C44 | 4 | $0.0089 | $0.0356 | C1546 |
-| [62pF Capacitor](https://jlcpcb.com/partdetail/34921-0402CG620J500NT/C33953) | C39, C42 | 2 | $0.0014 | $0.0028 | C33953 |
+| [62pF Capacitor](https://jlcpcb.com/partdetail/YAGEO-CC0402JRNPO9BN620/C281763) | C39, C42 | 2 | $0.0014 | $0.0028 | C281763 |
 | [12pF Capacitor](https://jlcpcb.com/partdetail/1899-0402CG120J500NT/C1547) | C22, C23 | 2 | $0.0010 | $0.0020 | C1547 |
 | [10pF Capacitor](https://jlcpcb.com/partdetail/1897-0402CG100J500NT/C1545) | C36, C43 | 2 | $0.0010 | $0.0020 | C1545 |
 | [6pF Capacitor](https://jlcpcb.com/partdetail/1927-0402CG6R0C500NT/C1575) | C20, C21, C24, C25 | 4 | $0.0010 | $0.0040 | C1575 |

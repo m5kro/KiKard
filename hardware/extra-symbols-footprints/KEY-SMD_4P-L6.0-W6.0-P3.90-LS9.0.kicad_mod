@@ -203,9 +203,9 @@
 		(uuid "dde857ac-b1f2-4545-b960-e360e2bf105c")
 	)
 	(embedded_fonts no)
-	(model "/.3dshapes/KEY-SMD_4P-L6.0-W6.0-H8.0-P3.90-LS9.0.wrl"
+	(model "${KIPRJMOD}/extra-symbols-footprints/3dshapes/KEY-SMD_4P-L6.0-W6.0-H8.0-P3.90-LS9.0.step"
 		(offset
-			(xyz 0 -0 -0)
+			(xyz 0 0 0)
 		)
 		(scale
 			(xyz 1 1 1)
