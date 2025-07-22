@@ -108,3 +108,14 @@ Screenshot of the final PCB layout and 3D render<br>
 <br>
 **Time spent today: 7h**<br>
 **Total time spent: 40h**
+## 7/21/25
+Created a case for the PCB. It's got curved and chamfered edges to be comfortable to hold and nice to look at. Instead of screw holes I opted to design some internal clips so it's much easier to assemble and take apart. The buttons on the side are exposed, mostly because I think it looks good but also because I was too lazy to design extensions in the case. There was a small issue where the button hight was incorrect which I had to manually fix but otherwise everything looks ok.<br>
+<br>
+I'll start working on the test code next.<br>
+<br>
+<img src="case/KiKard-CASE.png" height="200">
+<img src="hardware/KiKard-PCB.PNG" height="200"><br>
+Screenshot of the rendered case and fixed PCB<br>
+<br>
+**Time spent today: 5h**<br>
+**Total time spent: 45h**
