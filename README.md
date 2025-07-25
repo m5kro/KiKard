@@ -14,23 +14,27 @@ RGB LED 2 - read/tag status Yellow: waiting, Blue: reading/emulating, Green: suc
 Button 1 - Read/emulate<br>
 Button 2 - Switch between NRF52 and ST25<br>
 Button 3 - Switch emulated tag (can save different cards on device)<br>
-The DAPLINK is used to flash the NRF with a bootloader as it doesn't come with one by default. There are test pads on the board to connect.
-
+The DAPLINK is used to flash the NRF with a bootloader as it doesn't come with one by default. There are test pads on the board to connect.<br>
+There are alot of extended parts as I needed high quality caps for the NFC antenna.<br>
+Tariffs are making this project alot more expensive than it needs to be ;(
+    
 # Bom
 | Item | Price |
 | :-----: | :-----: |
 | Custom PCB x5 | $4.00 |
-| PCB Parts x5 | $44.43 |
+| PCBA Setup | $8.00 |
+| Stencil | $1.50 |
+| PCB Parts x2| $20.07
 | Extended Parts Fee | $81.00 |
-| SMT Assembly | $2.90 |
-| X-ray Inspection (required) | $7.85 |
-| Nitrogen Reflow Soldering | $0.86 |
-| Shipping | $9.04 |
+| SMT Assembly | $1.86
+| X-ray Inspection (required) | $3.14 |
+| Nitrogen Reflow Soldering | $0.82 |
+| Shipping | $28.85 |
+| Customs | $66.22 |
 | [DAPLINK](https://www.amazon.com/DAPLINK-Replaces-STLINK-downloader-Emulator/dp/B0CJLWST5G?crid=37G7MJJ8PDODB&dib=eyJ2IjoiMSJ9.LONWwnu2baBqUgajD8YgTeRN4Xe9SdWq2CWZj9h0t7N8Od4hUhg3FYs_pJB3ofSYGvR3SD7Xmf7qHTI7JBvrOPT3K4B6-szjSDsRNjNSHDNoK7fKdCvFnpVZmTFFgiVgGE3gweoAUxLau7OYdxGSqDspsOBbMQUSWdekekhBiZi43WipJDmFG7aQEzR-T1UNaR1NSxGKhk95WE_1FSXa2pftOqihV66EefQA54zipEY.lhAFbV3gpTY3rYXGPmu6VPxUQWc01xmbRizO2KXj_lI&dib_tag=se&keywords=DAPLINK&qid=1753411504&sprefix=daplink%2Caps%2C157&sr=8-4) | $8.50 |
 | JLCPCB special discount | -$2.00 |
-| JLCPCB Coupon | -$20.00 |
 
-**Total: $146.08**
+**Total: $232.48**
 
 # PCB Parts Bom (PER PCB)
 Total PCB Parts: 71<br>

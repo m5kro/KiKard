@@ -1,32 +1,14 @@
-"Part","Designator","Quantity","Price per Unit","Total","JLCPCB/LCSC Part No.","Link"
-"NRF-52840-QIAA-R","U1","1","4.0290","4.0290","C190794","https://jlcpcb.com/partdetail/NordicSemicon-NRF52840_QIAAR/C190794"
-"ST25R3916-AQWT","U2","1","3.3795","3.3795","C2908147","https://jlcpcb.com/partdetail/STMicroelectronics-ST25R3916AQWT/C2908147"
-"WNM3013-3/TR","Q1, Q2","2","0.0333","0.0667","C239659","https://jlcpcb.com/partdetail/WILLSEMI_Will_Semicon-WNM3013_3TR/C239659"
-"32MHz Crystal Oscillator","Y2","1","0.0890","0.0890","C2682773","https://jlcpcb.com/partdetail/2777870-X201632MOB4SI/C2682773"
-"27MHz Crystal Oscillator","Y1","1","0.1773","0.1773","C576558","https://jlcpcb.com/partdetail/604049-XRCGB27M120F3M00R0/C576558"
-"32KHz Crystal Oscillator","Y3","1","0.3825","0.3825","C383847","https://jlcpcb.com/partdetail/357119-X161032768KGD2SI/C383847"
-"USB-C Port","USB1","1","0.0642","0.0642","C393939","https://jlcpcb.com/partdetail/SHOUHAN-TYPEC16PIN/C393939"
-"RGBLED","LED1, LED2","2","0.0807","0.1614","C7497245","https://jlcpcb.com/partdetail/ChauLight-ZSRGB_2017H_08Z3/C7497245"
-"Button","SW1, SW2, SW3","3","0.0380","0.1140","C83206","https://jlcpcb.com/partdetail/Korean_HropartsElec-K2_6639SP_C4SC04/C83206"
-"Small Button","SW4","1","0.0299","0.0299","C36498961","https://jlcpcb.com/partdetail/hanxia-HX_3x4x2_2P_25N/C36498961"
-"100k Ohm Resistor","R3, R4","2","0.0010","0.0020","C14675","https://jlcpcb.com/partdetail/YAGEO-RC0603FR07100KL/C14675"
-"10k Ohm Resistor","R5","1","0.0004","0.0004","C25531","https://jlcpcb.com/partdetail/26274-0402WGJ0103TCE/C25531"
-"5.1k Ohm Resistor","R1, R2","2","0.0004","0.0008","C25941","https://jlcpcb.com/partdetail/26684-0402WGJ0512TCE/C25941"
-"4.7uF Capacitor","C1, C2, C3, C32","4","0.0101","0.0404","C19666","https://jlcpcb.com/partdetail/20375-CL10A475KO8NNNC/C19666"
-"2.2uF Capacitor","C5, C7, C9, C13, C15, C17, C19","7","0.0060","0.0420","C1607","https://jlcpcb.com/partdetail/1959-CL10A225KP8NNNC/C1607"
-"1uF Capacitor","C11, C27","2","0.0016","0.0032","C14445","https://jlcpcb.com/partdetail/15107-CL05A105KP5NNNC/C14445"
-"100nF Capacitor","C28, C29, C30, C31, C34, C47","6","0.0011","0.0066","C56392","https://jlcpcb.com/partdetail/57421-0402B104K250NT/C56392"
-"47nF Capacitor","C26","1","0.0017","0.0017","C82219","https://jlcpcb.com/partdetail/83376-0402B473K500NT/C82219"
-"10nF Capacitor","C4, C6, C8, C10, C12, C14, C16, C18","8","0.0010","0.0080","C1524","https://jlcpcb.com/partdetail/1876-0402B103K500NT/C1524"
-"1nF Capacitor","C45, C46","2","0.0089","0.0178","C343059","https://jlcpcb.com/partdetail/TDK-C1005C0G1E102JT000F/C343059"
-"680pF Capacitor","C38, C40","2","0.0011","0.0022","C1541","https://jlcpcb.com/partdetail/1893-0402B681K500NT/C1541"
-"100pF Capacitor","C35, C37, C41, C44","4","0.0089","0.0356","C1546","https://jlcpcb.com/partdetail/1898-0402CG101J500NT/C1546"
-"62pF Capacitor","C39, C42","2","0.0014","0.0028","C281763","https://jlcpcb.com/partdetail/YAGEO-CC0402JRNPO9BN620/C281763"
-"12pF Capacitor","C22, C23","2","0.0010","0.0020","C1547","https://jlcpcb.com/partdetail/1899-0402CG120J500NT/C1547"
-"10pF Capacitor","C36, C43","2","0.0010","0.0020","C1545","https://jlcpcb.com/partdetail/1897-0402CG100J500NT/C1545"
-"6pF Capacitor","C20, C21, C24, C25","4","0.0010","0.0040","C1575","https://jlcpcb.com/partdetail/1927-0402CG6R0C500NT/C1575"
-"0.8pF Capacitor","C33","1","0.0013","0.0013","C40459","https://jlcpcb.com/partdetail/41442-0402CG0R8C500NT/C40459"
-"10uH Inductor","L1","1","0.0212","0.0212","C51942","https://jlcpcb.com/partdetail/Sunlord-MCL1608S100MT/C51942"
-"270nH Inductor","L4, L5","2","0.0077","0.0154","C76784","https://jlcpcb.com/partdetail/TDK-MLG1005SR27JT000/C76784"
-"15nH Inductor","L2","1","0.0106","0.0106","C23651","https://jlcpcb.com/partdetail/Sunlord-SDCL1608C15NJTDF/C23651"
-"3.9nH Inductor","L3","1","0.0039","0.0039","C14033","https://jlcpcb.com/partdetail/Sunlord-SDCL1005C3N9STDF/C14033"
+Item,Price, Link
+Custom PCB x5,4,/hardware
+PCBA Setup,8,
+Stencil,1.5,
+PCB Parts x2,20.07,/PCB-BOM.csv
+Extended Parts Fee,81,
+SMT Assembly,1.86,
+X-ray Inspection (required),3.14,
+Nitrogen Reflow Soldering,0.82,
+Shipping,28.85,
+Customs,66.22,
+DAPLINK ,8.5, https://www.amazon.com/DAPLINK-Replaces-STLINK-downloader-Emulator/dp/B0CJLWST5G?crid=37G7MJJ8PDODB&dib=eyJ2IjoiMSJ9.LONWwnu2baBqUgajD8YgTeRN4Xe9SdWq2CWZj9h0t7N8Od4hUhg3FYs_pJB3ofSYGvR3SD7Xmf7qHTI7JBvrOPT3K4B6-szjSDsRNjNSHDNoK7fKdCvFnpVZmTFFgiVgGE3gweoAUxLau7OYdxGSqDspsOBbMQUSWdekekhBiZi43WipJDmFG7aQEzR-T1UNaR1NSxGKhk95WE_1FSXa2pftOqihV66EefQA54zipEY.lhAFbV3gpTY3rYXGPmu6VPxUQWc01xmbRizO2KXj_lI&dib_tag=se&keywords=DAPLINK&qid=1753411504&sprefix=daplink%2Caps%2C157&sr=8-4
+JLCPCB special discount,-2,
+Total,232.48,
