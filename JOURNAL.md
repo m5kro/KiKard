@@ -4,6 +4,9 @@ author: "m5kro"
 description: "A usb microcontroller board with NFC read, write, and tag support."
 created_at: "2025-06-1"
 ---
+# Total Time
+50 hours
+
 ## 6/1/25 
 Came up with the initial idea and some basic plans. I did research on the NRF-52 series and found out that it alone wasn't sufficient for what I wanted to build, so I needed a separate chip. After searching online, I found that the PN532 was a popular choice since it was cheap and widely available, but the PN533 might have more features. <br>
 <br>

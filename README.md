@@ -1,7 +1,11 @@
 # KiKard
-Pronounced key card. KiKard is a usb microcontroller board with NFC read, write, and tag support. Built for Hack Club Highway. Not affiliated with KiCad (but do check them out).
+Pronounced key card. KiKard is a usb microcontroller board with NFC read, write, and tag support. Built for Hack Club Highway. Not affiliated with KiCad (but do check them out).<br>
+<br>
+<img src="journal-images/7-25-25-1.png" height="200">
+<img src="journal-images/7-25-25-2-noarrow.png" height="200">
+<img src="case/KiKard-CASE.png" height="200">
 
-# What it should do
+# What it does
 KiKard is designed to read, write, and emulate NFC devices. This can be anything from simple link tags to complex keycards with custom communication standards. It can work independently or with a computer through BLE or USB.
 
 # Why I built it
@@ -17,7 +21,7 @@ Button 3 - Switch emulated tag (can save different cards on device)<br>
 The DAPLINK is used to flash the NRF with a bootloader as it doesn't come with one by default. There are test pads on the board to connect.<br>
 There are alot of extended parts as I needed high quality caps for the NFC antenna.<br>
 Tariffs are making this project alot more expensive than it needs to be ;(
-    
+
 # Bom
 | Item | Price |
 | :-----: | :-----: |
