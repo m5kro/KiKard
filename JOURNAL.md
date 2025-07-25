@@ -119,3 +119,14 @@ Screenshot of the rendered case and fixed PCB<br>
 <br>
 **Time spent today: 5h**<br>
 **Total time spent: 45h**
+## 7/25/25
+Created a test application today! During my reseach for the NRF connect SDK I found out that the chip does not come with a bootloader by default. Because of this, I needed to add some testpads onto the board and I also need to buy a flasher to add the bootloader. This thankfully wans't too hard as there was just enough space to squeeze in the pads without moving any existing components. I also learned about how to use the SDK and exentions to compile a uf2 firmware file. It should now be ready to be shown off at the pitstop and submitted!<br>
+<br>
+Next update I will hopefully have the boards.<br>
+<br>
+<img src="journal-images/7-25-25-1.png" height="200">
+<img src="journal-images/7-25-25-2.png" height="200"><br>
+Screenshot of updated board (new testpads are marked)<br>
+<br>
+**Time spent toay: 5h**<br>
+**Total time spent: 50h**

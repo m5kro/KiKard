@@ -8,10 +8,11 @@
 | X-ray Inspection (required) | $7.85 |
 | Nitrogen Reflow Soldering | $0.86 |
 | Shipping | $9.04 |
+| [DAPLINK](https://www.amazon.com/DAPLINK-Replaces-STLINK-downloader-Emulator/dp/B0CJLWST5G?crid=37G7MJJ8PDODB&dib=eyJ2IjoiMSJ9.LONWwnu2baBqUgajD8YgTeRN4Xe9SdWq2CWZj9h0t7N8Od4hUhg3FYs_pJB3ofSYGvR3SD7Xmf7qHTI7JBvrOPT3K4B6-szjSDsRNjNSHDNoK7fKdCvFnpVZmTFFgiVgGE3gweoAUxLau7OYdxGSqDspsOBbMQUSWdekekhBiZi43WipJDmFG7aQEzR-T1UNaR1NSxGKhk95WE_1FSXa2pftOqihV66EefQA54zipEY.lhAFbV3gpTY3rYXGPmu6VPxUQWc01xmbRizO2KXj_lI&dib_tag=se&keywords=DAPLINK&qid=1753411504&sprefix=daplink%2Caps%2C157&sr=8-4) | $5.14 |
 | JLCPCB special discount | -$2.00 |
-| SMT Coupon | -$12.00 |
+| JLCPCB Coupon | -$20.00 |
 
-**Total: $145.58**
+**Total: $142.72**
 
 # PCB Parts Bom (PER PCB)
 Total PCB Parts: 71<br>
