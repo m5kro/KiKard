@@ -1,6 +1,12 @@
 # KiKard
 Pronounced key card. KiKard is a usb microcontroller board with NFC read, write, and tag support. Built for Hack Club Highway. Not affiliated with KiCad (but do check them out).
 
+# What it should do
+KiKard is designed to read, write, and emulate NFC devices. This can be anything from simple link tags to complex keycards with custom communication standards. It can work independently or with a computer through BLE or USB.
+
+# Why I built it
+The goal of this project is to create a tool to assist me with my NFC application development learning. About a year ago, I wanted to make apps that utilize NFC, but I realized that most phones (most widespread implementation of NFC) are terrible for the development process as everything is very locked down. I did get a cheap PN532 reader from amazon and while it did help, it was still very lacking. Thus I decided to create KiKard to cover all the requirements needed by my other projects.
+
 # Other Notes
 Although the NRF has NFC support built in, it's only for tag mode, so a separate chip is needed for reading NFC.<br>
 RGB LED 1 - Status led Green: just connected, Pink: reset/flashing, Blue: NRF52 tag mode, Yellow: ST25 read mode, Red: error<br>
