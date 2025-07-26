@@ -78,7 +78,7 @@
 		)
 	)
 	(net 0 "")
-	(net 1 "Net-(AE1-PCB_Trace)")
+	(net 1 "Net-(AE1-FEED)")
 	(net 2 "GND")
 	(net 3 "NFC_ANT_1")
 	(net 4 "NFC_ANT_2")
@@ -5151,7 +5151,7 @@
 		(at 158.5 119)
 		(descr "SMD pad as test Point, diameter 1.0mm")
 		(tags "test point SMD pad")
-		(property "Reference" "3V3"
+		(property "Reference" "TP3"
 			(at 0 -1.5 0)
 			(layer "F.SilkS")
 			(uuid "b9595156-7ee7-4213-8602-b4c7856eae2c")
@@ -6027,7 +6027,7 @@
 		(at 162 122.5)
 		(descr "SMD pad as test Point, diameter 1.0mm")
 		(tags "test point SMD pad")
-		(property "Reference" "RST"
+		(property "Reference" "TP5"
 			(at 0 -1.448 0)
 			(layer "F.SilkS")
 			(uuid "9914dbfd-c10e-47f5-b207-fb743b803815")
@@ -8435,7 +8435,7 @@
 		(at 158.5 115.5)
 		(descr "SMD pad as test Point, diameter 1.0mm")
 		(tags "test point SMD pad")
-		(property "Reference" "SCK"
+		(property "Reference" "TP1"
 			(at 0 -1.448 0)
 			(layer "F.SilkS")
 			(uuid "afac134b-4bb7-49b1-a8af-de6d93c8b9a9")
@@ -10888,7 +10888,7 @@
 		(at 162 119)
 		(descr "SMD pad as test Point, diameter 1.0mm")
 		(tags "test point SMD pad")
-		(property "Reference" "GND"
+		(property "Reference" "TP4"
 			(at 0 -1.448 0)
 			(layer "F.SilkS")
 			(uuid "d86ad430-4e88-48e5-9335-0615f5f17b85")
@@ -13517,7 +13517,7 @@
 		(at 162 115.5)
 		(descr "SMD pad as test Point, diameter 1.0mm")
 		(tags "test point SMD pad")
-		(property "Reference" "SWD"
+		(property "Reference" "TP2"
 			(at 0 -1.448 0)
 			(layer "F.SilkS")
 			(uuid "91fa1b19-af52-433d-8291-fd5c260f6dc5")
@@ -15041,7 +15041,7 @@
 	(footprint "extra-symbols-footprints:L0402"
 		(layer "F.Cu")
 		(uuid "c3cf0bbf-3b90-49f5-8669-fe3f34a05e61")
-		(at 138.57 129)
+		(at 138.45 127)
 		(property "Reference" "L3"
 			(at 0 -1.5 0)
 			(layer "F.SilkS")
@@ -15219,7 +15219,7 @@
 			(at -0.55 0)
 			(size 0.79 0.54)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 1 "Net-(AE1-PCB_Trace)")
+			(net 1 "Net-(AE1-FEED)")
 			(pinfunction "1")
 			(pintype "passive")
 			(uuid "f275cdf8-0502-4b00-85a3-34e2a52424d5")
@@ -16952,7 +16952,7 @@
 			(at 0 0 90)
 			(size 0.5 0.5)
 			(layers "F.Cu")
-			(net 2 "GND")
+			(net 1 "Net-(AE1-FEED)")
 			(pinfunction "FEED")
 			(pintype "input")
 			(uuid "d3e4b51c-ec0e-4eb6-a91e-4a4f5fa19979")
@@ -16963,7 +16963,7 @@
 			(drill 0.3)
 			(layers "*.Cu")
 			(remove_unused_layers no)
-			(net 1 "Net-(AE1-PCB_Trace)")
+			(net 2 "GND")
 			(pinfunction "PCB_Trace")
 			(pintype "passive")
 			(zone_connect 2)
@@ -19322,20 +19322,20 @@
 		)
 	)
 	(segment
-		(start 136.29 127.15)
-		(end 138.14 129)
+		(start 137.575 127)
+		(end 135.625 125.05)
 		(width 0.2)
 		(layer "F.Cu")
 		(net 1)
-		(uuid "35551acc-9825-4579-b5c1-6baa610899e1")
+		(uuid "62cdbd07-d80b-44b7-be4e-0ff5cfecc346")
 	)
 	(segment
-		(start 135.625 127.15)
-		(end 136.29 127.15)
+		(start 137.9 127)
+		(end 137.575 127)
 		(width 0.2)
 		(layer "F.Cu")
 		(net 1)
-		(uuid "84d1c265-bcda-4ce3-9257-c9bc157e3c87")
+		(uuid "e5e04c64-de5b-4092-95b9-b0db3e7071e7")
 	)
 	(segment
 		(start 146.5 124.5)
@@ -19970,14 +19970,6 @@
 		(uuid "6bc2e01f-37f4-415a-803c-65f3072723d8")
 	)
 	(segment
-		(start 140.001 127.399)
-		(end 142.601 127.399)
-		(width 0.2)
-		(layer "F.Cu")
-		(net 2)
-		(uuid "6db809d6-af56-46db-a2e3-93e374838848")
-	)
-	(segment
 		(start 159.5 103.899)
 		(end 158.101 103.899)
 		(width 0.2)
@@ -20218,14 +20210,6 @@
 		(uuid "97fba23e-be40-40df-9da5-0c1ad820d59a")
 	)
 	(segment
-		(start 135.625 125.05)
-		(end 137.652 125.05)
-		(width 0.2)
-		(layer "F.Cu")
-		(net 2)
-		(uuid "98d8b17b-3d10-47f9-83a6-72efb9d99fad")
-	)
-	(segment
 		(start 161.5 99.6)
 		(end 161.5 101.5)
 		(width 0.2)
@@ -20296,14 +20280,6 @@
 		(layer "F.Cu")
 		(net 2)
 		(uuid "b01a9252-b2cb-4f9d-9cbc-536e6f704643")
-	)
-	(segment
-		(start 137.652 125.05)
-		(end 140.001 127.399)
-		(width 0.2)
-		(layer "F.Cu")
-		(net 2)
-		(uuid "b0882792-28b0-4f7e-81e5-459a6b254c4e")
 	)
 	(segment
 		(start 155.4 94.6)
@@ -20480,6 +20456,14 @@
 		(layer "F.Cu")
 		(net 2)
 		(uuid "cc741c5b-d42e-4228-8924-0d95993f6227")
+	)
+	(segment
+		(start 135.625 127.15)
+		(end 139.125 130.65)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 2)
+		(uuid "ccd02831-578f-440f-aa8a-1c853df07daa")
 	)
 	(segment
 		(start 146.315 100.685)
@@ -20746,12 +20730,12 @@
 		(uuid "ef360771-ad45-461b-b268-bcb70300bbc5")
 	)
 	(segment
-		(start 142.601 127.399)
-		(end 144 126)
+		(start 139.125 130.65)
+		(end 142.55 130.65)
 		(width 0.2)
 		(layer "F.Cu")
 		(net 2)
-		(uuid "efedfb4f-4eb5-4881-912c-a397d6a27c89")
+		(uuid "f231b197-661c-461d-86d8-e6790ecb0c28")
 	)
 	(segment
 		(start 140.4 111)
@@ -23641,14 +23625,6 @@
 		(uuid "25852d61-c955-4420-877f-d3df49fe248b")
 	)
 	(segment
-		(start 141 129)
-		(end 139 129)
-		(width 0.2)
-		(layer "F.Cu")
-		(net 22)
-		(uuid "3385d269-ff4a-48c1-97f5-b398712f4aa8")
-	)
-	(segment
 		(start 155.4 117)
 		(end 155 117)
 		(width 0.2)
@@ -23663,6 +23639,14 @@
 		(layer "F.Cu")
 		(net 22)
 		(uuid "61fe4bf1-222f-4885-801d-9a54df672b7a")
+	)
+	(segment
+		(start 139 127)
+		(end 141 129)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 22)
+		(uuid "dadedfe9-4d37-458f-bb9e-717ecea95bb3")
 	)
 	(via
 		(at 155.5 115.5)

@@ -6657,16 +6657,6 @@
 	)
 	(wire
 		(pts
-			(xy 226.06 458.47) (xy 251.46 458.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "61dc022e-0306-42ae-8ecb-2386e0624cac")
-	)
-	(wire
-		(pts
 			(xy 236.22 491.49) (xy 254 491.49)
 		)
 		(stroke
@@ -6744,16 +6734,6 @@
 			(type default)
 		)
 		(uuid "65834e03-6e71-489f-9b01-0e952ed1e40d")
-	)
-	(wire
-		(pts
-			(xy 251.46 458.47) (xy 251.46 444.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "65dd493f-a70f-4df5-8b75-868d0c6baaca")
 	)
 	(wire
 		(pts
@@ -7234,6 +7214,16 @@
 			(type default)
 		)
 		(uuid "922dee91-9a9f-4878-ac1a-78ad218e0463")
+	)
+	(wire
+		(pts
+			(xy 226.06 458.47) (xy 246.38 458.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "94943d57-5798-4491-9385-e78f5a5136f1")
 	)
 	(wire
 		(pts
@@ -8124,6 +8114,16 @@
 			(type default)
 		)
 		(uuid "f0327476-8a14-4532-80d7-d17474c19b1d")
+	)
+	(wire
+		(pts
+			(xy 246.38 458.47) (xy 246.38 444.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f0685cf1-e8d4-4607-a052-8651f949ad15")
 	)
 	(wire
 		(pts
@@ -18164,7 +18164,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 246.38 444.5 0)
+		(at 251.46 444.5 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -18173,7 +18173,7 @@
 		(fields_autoplaced yes)
 		(uuid "db0079ba-cc9a-42dc-ab10-f2edfb5cb7a8")
 		(property "Reference" "#PWR026"
-			(at 246.38 450.85 0)
+			(at 251.46 450.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18182,7 +18182,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 246.38 449.58 0)
+			(at 251.46 449.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18190,7 +18190,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 246.38 444.5 0)
+			(at 251.46 444.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18199,7 +18199,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 246.38 444.5 0)
+			(at 251.46 444.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18208,7 +18208,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 246.38 444.5 0)
+			(at 251.46 444.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
